@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(../font/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Oswald';
+}
+
+.ppal {
+    font-size: 3em;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: rgb(218, 238, 92);
+
+
+}
+
+.formCont {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contInt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+.bgalert {
+    background-color: rgba(236, 124, 124, 0.856);
+}
+
+.contInt input {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 229, 198);
+    padding: 5px;
+
+}
+
+.contInt input:focus {
+    border: solid 2px rgb(122, 100, 100);
+}
+
+.valTyC {
+    display: flex;
+
+    margin-top: 20px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.valTyC label {
+
+    margin: 0px 15px;
+    order: 2;
+}
+
+.btn {
+    margin-top: 40px;
+    align-self: center;
+    /*centra el boton pero el contenerdor padre debe ser flex.*/
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(14, 158, 224, 0.918);
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: beige;
+}
+
+
+
+.btn:hover {
+    transform: scale(1.3, 1.3);
+}
+
+
+.ErrorAl {
+
+    color: red;
+    margin-top: 5px;
+
+}
+
+.cent {
+    align-self: center;
+}
+
+
+
+.main-container {
+    border: 2px solid rgb(65, 65, 65);
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.h1 {
+
+    margin: 20px 0px;
+    font-size: 4em;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: rgb(218, 238, 92);
+}
+
+.h2 {
+    font-size: 2em;
+}
+
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn2 {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(14, 158, 224, 0.918);
+    color: beige;
+}
+
+.InNumber input {
+
+
+    border-radius: 10px;
+    background-color: rgb(255, 229, 198);
+
+}
+
+.final {
+    margin: 20px auto;
+    display: flex;
+    align-content: center;
+    align-self: center;
+}
+
+.final p {
+    padding: 10px 70px;
+    font-size: 2em;
+    font-weight: bolder;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: rgb(218, 238, 92);
+
+}
